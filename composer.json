@@ -1,0 +1,20 @@
+{
+    "name": "krak/luhn",
+    "description": "Luhn Algorithm Library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "RJ Garcia",
+            "email": "rj@bighead.net"
+        }
+    ],
+    "autoload": {
+        "files": ["src/luhn.php"]
+    },
+    "require": {
+        "nikic/iter": "^1.3"
+    },
+    "require-dev": {
+        "peridot-php/peridot": "^1.18"
+    }
+}
